@@ -1,0 +1,25 @@
+{
+	"name": "svezy",
+	"version": "0.0.0",
+	"main": "test/index.js",
+	"author": "Henrique Borges <henriqueborgeshbr@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "rollup -c -w"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^11.0.2",
+		"@rollup/plugin-node-resolve": "^7.1.1",
+		"rollup": "^2.0.0",
+		"rollup-plugin-cleaner": "^1.0.0",
+		"rollup-plugin-livereload": "^1.0.4",
+		"rollup-plugin-serve": "^1.0.1",
+		"rollup-plugin-svelte": "^5.1.1",
+		"rollup-plugin-terser": "^5.2.0",
+		"svelte": "^3.19.2",
+		"typescript": "^3.8.3"
+	},
+	"dependencies": {
+		"svelte-loadable": "^1.4.0"
+	}
+}
